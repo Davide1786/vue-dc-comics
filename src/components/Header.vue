@@ -11,7 +11,7 @@
           </li>
         </ul>
       </nav>
-    </div>  
+    </div>
   </div>
 </template>
 
@@ -94,24 +94,19 @@ export default {
     ul {
       list-style: none;
       display: flex;
-
       li a {
         text-decoration: none;
         padding: 10px;
         text-transform: uppercase;  
         color: $colore-link;
         padding-bottom: 41px;
-
         &:hover,
         &.active {
           color: $cambio-colore;
           border-bottom: 5px solid #077CEA;
         }
-
       }
-
     }
-
   }
 
  

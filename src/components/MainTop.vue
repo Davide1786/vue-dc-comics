@@ -1,14 +1,16 @@
 <template>
   <div>
-    <div class="barra-nera">
-      <h3 class="goes">Content goes here</h3>
-    </div>
+    <div class="jumbotron"></div>
   </div>
+
 </template>
 
 <script>
+
+
 export default {
   name: 'MainTop',
+  
 }
 </script>
 
@@ -16,20 +18,17 @@ export default {
 <style scoped lang="scss">
 @import '../components/Style/Variabili';
 
-  .barra-nera {
+  .jumbotron {
     width: 100%;
-    height: 120px;
+    height: 500px;
     display: flex;
     align-items: center;
-    background: black;
+    background: rgb(194, 6, 6);
+    background-image: url('../assets/img/jumbotron.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 
-      .goes{
-        width: 70%;
-        margin: 0 auto;
-        color: white;
-        font-size: 28px;
-        font-weight: 900;
-      }
+     
   }
 
  
